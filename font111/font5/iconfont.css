@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1568436648884'); /* IE9 */
+  src: url('iconfont.eot?t=1568436648884#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQ4AAsAAAAACLwAAAPqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqFSIQ0ATYCJAMICwYABCAFhG0HLxtZBxHVm8fJfibY4Bb6iIr6ql5Us2MZzVFjoSnNb+J56jDf3927Ts2a39z4jYfTKcAHFMB0hXg4IK2A5af3rDeZpDtNFgWPXcsHIziZf5ICYHMzdI2KUCzJefC/PCPp2Gl++TyHS5vi8wPlMsekSb0A44AC2hvbRHVAB8YHeot4jkg6WP95Agz14AYdJKTlAUGDaQGyb26sBpLQoytKg0BkBWsboAdgkDKZugTg3vv5fIJPCEDBVICK44b4Ooh65owZeNT/UWUOAQTDWSFsAhXYAg3kvNB+CDiIb2GsZqfZVFfTEHhx/v/f4S/2Dw8EpAsgH9PUBf+YBJbwUOWF/bwBPeAPIINOD6K3tnEwdO8SUjr1YaF+ql7Sr7TViSJ77VHeFF4zCpZbj9IKOIczTtGt6SLqVtiM1ksbyVnc4+qp2tVGAZaZeM08O569UlBUGS8JvHo1vz7HkxUOFS+1L2Lta1RoWATslU7ETMQgSdJLdKYA5TzwGnpgxVSOW7DFRbfmADslKVlHdLwwQD/71fa7ucK9gWsd9ZArSQiJoth5CTtllWadwZB3KmFPiLghw+vNu9FRWrukrP326w8bUe2sja4bAyWpD+n6cfQC9GrVrLLDf6XfuQuLg+lFtIky7TGPVmDdXrOlVDS1lDHbq6MwZNPqwLEmypL0bhSC5F7WRBeKdo5lo3A0Zuc2D9QRpZc8iC/sI1+EFsHnMtKncXWgXOWJcCozj6RQbjtN1FD0PUMwNl21NHf/wLkrQb4TCnuPQgrFL8pU44CwnFbHKcb2s7ajgS2UfY7CZB9CCN771medRS+97HjWyewwytDVPnnibdmCXWvdU1GvJn4IXyvlDScMTpxY23dWFKP6eyvq22Oi36iWQnR9QEcQSyxCNSPWMGN8FaOqV7r3rbwF6othxn6vxmc9+MiPew9TB5vLjEFlsWf6EbuEnK+BKIBgvcSu/4Pfgad6y7eVVmFfCUcD4HnFnHWetmnmBP2n5Qj46oKGLU0XgaE0VVCYLj6A2dOsGmKBf9Y9ca+rcw4iaxBRQKMw0x0VYUdsVDd0cPzQRURiyFXi5hG1PoChJgewMZ4CorAVFEtHgSlcJtLUu2DovIWMIhisAqTek8M4xKpYxl3wguMP9syJiEmUX3pD/Q47x0Ue7YXcbAimfkynNkzIQyxoHz2LEBDnCCt1GYaQoXB2eEpvRMoyDFT0pv7MsVNiGXfBCxx/YM+cyOksKvP9G+p32Lmiqcb+Qm62dzDpjQ2Imzw1arqUa9pHz0QIEOcIVsqKAeMZlOJRDk/pmQ7RshiYdtRU3k+vjHe3C4ZAU4JDKmZvi01dBwAA') format('woff2'),
+  url('iconfont.woff?t=1568436648884') format('woff'),
+  url('iconfont.ttf?t=1568436648884') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1568436648884#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lipin:before {
+  content: "\e629";
+}
+
