@@ -1,0 +1,42 @@
+1.git init 
+
+2.git config --global user.name "xuyuzhiyue"
+   git config -- global user.email “240011530@qq.com”
+
+3.git add README.md
+
+4.git commit -m "first commit"
+
+先5.git remote add origin https://github.com/xuyuzhiyue/xiaomi.git
+再分支
+
+6.git push -u origin master
+
+7.git branch (branchname)    :创建分支命令
+
+8.git checkout (branchname)    :切换分支命令:
+
+9.git checkout -b (branchname)    :创建并切换到新分支
+
+10.git status  查看当前状态，查看本地分支文件信息
+
+11.git branch 查看本地所有分支，当前分支
+
+12.git clone -b dev2 https://github.com/xuyuzhiyue/xiaomi.git   :可以克隆分支下的代码了到本地
+
+13.git clone http://XXX (git@github.comXXXXX.git)   ：克隆项目到本地
+
+14.git branch -d (branchname)    ：可以删除本地分支（在主分支中）
+
+15.git branch -a 查看所有分支包括本地和远程
+15-1.git push origin --delete Chapater6   可以删除远程分支Chapater6   
+
+16.git branch  列出分支
+
+17.git stauts会列出在本地的分支
+
+18.git status命令表示：文件，文件夹在工作区，暂存区的状态
+
+19.git log   命令列出历史提交
+
+20.git log --oneline  查看历史记录的简洁的版本。
