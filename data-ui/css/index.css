@@ -1,0 +1,9 @@
+#app{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.addbtn{
+    margin: 20px 0 20px 0;
+    width: 100%;
+}
