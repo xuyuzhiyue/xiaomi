@@ -1,0 +1,136 @@
+Common.js基于node,aaa.js文件导出：
+第一种：
+var flag = true
+
+var name = "小明"
+
+function sum(sum1,sum2){
+  return sum1 + sum2;
+}
+
+if(flag){
+ console.log(sum(10,20))
+}
+
+module.exports = {
+  flag:flag,
+  sum:sum
+}
+
+
+导出
+第二种：
+module.exports={
+
+var flag = true
+
+var name = "小明"
+
+function sum(sum1,sum2){
+  return sum1 + sum2;
+}
+
+if(flag){
+ console.log(sum(10,20))
+}
+
+}
+
+
+-----------------------------
+导入：
+第一种：
+var {flag,sum} = require('./aaa.js')
+
+sum(10,20)
+
+导入
+第二种：
+var aaa = require('./aaa.js')
+
+var flag = aaa.flag;
+var sum = aaa.sum;.
+
+
+
+
+
+
+===================================
+es6模块化：
+
+index.html:
+
+<script src="aaa.js" type="module"><script>
+<script src="bbb.js" type="module"><script>
+<script src="ccc.js" type="module"><script>
+
+aaa.js:
+
+var flag = true;
+var name = "小明"
+function sum(sum1,sum2){
+ return sum1+sum2;
+}
+
+//导出方式一：
+export { flag , sum }
+
+//导出方式二：
+export let name = "哈哈哈"
+export let age = 18
+
+//导出方式三：
+export function count(sum1,sum2){
+ return sum1 * sum2
+}
+
+
+//导出方式四：
+export class Person(){
+  run(){
+    console.log('在奔跑')
+  }
+}
+
+//导出方式五；在同一个模块中只能一个default，自定义名命
+const address = "北京"
+export default address
+
+//默认函数的导出
+export default function(name){
+  console.log(name)
+}
+
+bbb.js:
+
+import {sum} from './aaa.js'
+var flag = false
+var name = "小红"
+
+sum(100,11)
+
+import {Person} from './aaa.js'
+
+let  p = new Person();
+p.run()
+
+
+ccc.js:
+
+import {flag,sum} from './aaa.js'
+if(flag){
+ console.log(sum(10,20))
+}
+
+//导出default，自定义名命
+import addre from './aaa.js'
+console.log(addre)
+
+//全部统一的导出
+import  * as aaa from './aaa.js'
+console.log(aaa.addre)
+
+
+
+
